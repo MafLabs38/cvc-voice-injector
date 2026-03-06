@@ -1,0 +1,19 @@
+{
+  "name": "cvc-voice-injector",
+  "displayName": "CVC Voice Injector",
+  "description": "Bridge between Claude Visual Code mobile app and Claude Code. Handles voice injection, notification relay, HTTP terminal, and workspace browsing.",
+  "version": "0.2.0",
+  "publisher": "maflabs38",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MafLabs38/claude-visual-code"
+  },
+  "icon": "icon.png",
+  "categories": ["Other"],
+  "keywords": ["claude", "voice", "mobile", "code-server"],
+  "engines": { "vscode": "^1.60.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {}
+}
